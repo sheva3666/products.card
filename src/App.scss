@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 2376px;
+    padding: 30px 50px;
+}
+
+.card {
+    max-width: 573px;
+    padding: 46px 53px 44px 33px;
+    background: #F8FAFC;
+    border-radius: 25px;
+    
+    
+    &__img {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__title {
+        display: flex;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    &__text {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    &__changes {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+
+        p {
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+        }
+    }
+
+    &__check-volume {
+        margin: 19px 0px 0px 25px;
+    }
+
+    &__check-volume_first {
+        display: flex;
+        gap: 15px;
+        margin-top: 13px;
+    }
+
+    &__buy {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 25px 44px 0px 25px;
+    }
+
+    &__buy-btn {
+        border-radius: 30px;
+        background: #EFBB37;
+        padding: 9px 115px;
+        border: none;
+        cursor: pointer;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+        &:hover {
+            background: transparent;
+            border: 1px solid #EFBB37;
+            transition: 0,3s;
+            color: #EFBB37;
+        }
+
+    }
+}

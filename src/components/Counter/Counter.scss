@@ -1,0 +1,29 @@
+.count {
+    display: flex;
+    gap: 19px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 13px 8px 13px;
+    background: #E2E9F0;
+    border-radius: 30px;
+    max-width: 92px;
+    border: none;
+
+    &__btn {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    &__number {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+
+    }
+}
+

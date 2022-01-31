@@ -1,0 +1,19 @@
+.select {
+    width: 258px;
+    background: #fff;
+    border-radius: 30px;
+    border: 1px solid;
+    padding-right: 12px;
+    
+    
+
+    &__option {
+        border-radius: 30px;
+        border: none;
+        width: 258px;
+        background: #fff;
+        padding: 8px 12px 8px 20px;
+        cursor: pointer;
+        
+    }
+}
